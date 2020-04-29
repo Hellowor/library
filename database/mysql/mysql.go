@@ -5,7 +5,7 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/prometheus/common/log"
 	"github.com/sirupsen/logrus"
-	"github.com/Hellowor/library/ecode"
+	"github.com/rex-ss/library/ecode"
 	"time"
 )
 
