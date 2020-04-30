@@ -4,8 +4,8 @@ import (
 	"context"
 	"github.com/jinzhu/gorm"
 	"github.com/prometheus/common/log"
-	"github.com/sirupsen/logrus"
 	"github.com/rex-ss/library/ecode"
+	"github.com/sirupsen/logrus"
 	"time"
 )
 
@@ -22,7 +22,7 @@ type Dao struct {
 }
 
 func init() {
-	gorm.ErrRecordNotFound = encode.NothingFound
+	gorm.ErrRecordNotFound = ecode.NothingFound
 }
 
 // NewMySQL new db and retry connection when has error.
